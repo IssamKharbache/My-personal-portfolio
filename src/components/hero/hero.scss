@@ -1,0 +1,116 @@
+@import "../../app.scss";
+.hero {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+  .wrapper {
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+  }
+  .textContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    @include mobile {
+      height: 100%;
+      width: 100%;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+    }
+    img {
+      width: 50px;
+    }
+    h2 {
+      font-size: 50px;
+      color: rgb(107, 86, 201);
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      @include mobile {
+        font-size: 30px;
+      }
+    }
+    h1 {
+      font-size: 88px;
+      width: 40%;
+      text-transform: uppercase;
+
+      @include mobile {
+        font-size: 20px;
+        width: 100%;
+        padding: 15px;
+      }
+    }
+    .buttons {
+      display: flex;
+      flex-direction: row;
+
+      @include mobile {
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+      }
+      a {
+        padding: 20px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 15px;
+        margin-right: 25px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 20px;
+        z-index: 4;
+        transition-duration: 0.3s;
+
+        @include mobile {
+          font-size: 15px;
+          padding: 10px;
+          flex-direction: column;
+        }
+      }
+      a:first-child {
+        background-color: white;
+        color: black;
+      }
+      a:first-child:hover {
+        background-color: rgb(221, 218, 218);
+        border-radius: 10px;
+      }
+      a:hover {
+        background: white;
+        color: #0c0c1d;
+        border-radius: 10px;
+      }
+    }
+  }
+  .imageContainer {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    img {
+      height: 90%;
+      width: 70%;
+      object-fit: cover;
+      @include desktop {
+        display: none;
+      }
+    }
+  }
+
+  .slidingTextContainer {
+    position: absolute;
+    font-size: 50vh;
+    bottom: -100px;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
+  }
+}

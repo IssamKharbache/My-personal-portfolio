@@ -1,0 +1,119 @@
+@import "../../app.scss";
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  @include mobile {
+    width: 100%;
+    padding: 15px;
+    flex-direction: column;
+  }
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    @include mobile {
+      gap: 40px;
+      align-items: center;
+      text-align: center;
+      margin-top: 70px;
+    }
+    h1 {
+      font-size: 100px;
+      line-height: 95px;
+      @include mobile {
+        font-size: 25px;
+        line-height: 45px;
+      }
+    }
+    .item {
+      p {
+        font-size: 15px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        @include mobile {
+          display: none;
+        }
+      }
+    }
+  }
+  .formContainer {
+    @include mobile {
+      width: 100%;
+      padding: 15px;
+    }
+    .sent {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+
+      img {
+        width: 150px;
+      }
+    }
+    flex: 1;
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    input,
+    textarea {
+      padding: 20px;
+      border: 1px solid white;
+      background: transparent;
+      border-radius: 4px;
+      outline: none;
+      color: white;
+      @include mobile {
+        padding: 12px;
+      }
+    }
+    input:focus,
+    textarea:focus {
+      border: 2px solid rgb(138, 138, 187);
+    }
+    button {
+      padding: 20px;
+      border: none;
+      font-size: 25px;
+      cursor: pointer;
+      background-color: rgb(138, 138, 187);
+      border-radius: 5px;
+      transition-duration: 0.3s;
+      @include mobile {
+        padding: 12px;
+        font-size: 15px;
+      }
+    }
+    button:hover {
+      border-radius: 15px;
+      background-color: rgb(110, 110, 177);
+    }
+    .loader {
+      width: 48px;
+      height: 48px;
+      border: 5px solid #fff;
+      border-bottom-color: rgb(110, 110, 177);
+      border-radius: 50%;
+      display: inline-block;
+      box-sizing: border-box;
+      animation: rotation 1s linear infinite;
+      place-self: center;
+    }
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

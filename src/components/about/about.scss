@@ -1,0 +1,123 @@
+@import "../../app.scss";
+.about {
+  background: linear-gradient(180, #0c0c1d, #11113d);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+  .textContainer {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include tablet {
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 20px;
+      color: rgb(206, 206, 206);
+      text-align: right;
+      margin-top: 25px;
+
+      @include mobile {
+        font-size: 15px;
+      }
+    }
+    hr {
+      width: 500px;
+      border: none;
+      border-top: 0.5px solid gray;
+      border-radius: 25px;
+      @include tablet {
+        width: 300px;
+      }
+    }
+  }
+  .titleContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      @include tablet {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+      }
+      hr {
+        width: 500px;
+        border: none;
+        border-top: 0.5px solid gray;
+        border-radius: 25px;
+      }
+      h1 {
+        font-size: 96px;
+        font-weight: 100;
+        margin-top: 30px;
+        @include tablet {
+          font-size: 25px;
+        }
+      }
+      button {
+        height: 100px;
+        width: 300px;
+        border-radius: 50px;
+        background-color: rgb(97, 118, 179);
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+        transition-duration: 0.5s;
+        @include mobile {
+          height: 50px;
+          width: 200px;
+          font-size: 15px;
+        }
+      }
+      button:hover {
+        background-color: rgb(60, 83, 150);
+        border-radius: 15px;
+      }
+    }
+  }
+  .descriptionContainer {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    p {
+      max-width: 1366px;
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 45px;
+      border: 1px solid white;
+      border-radius: 15px;
+      padding: 15px;
+      margin-top: 15px;
+      margin-bottom: 150px;
+      @include mobile {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 25px;
+      margin-bottom: 25px;
+      text-align: center;
+      padding: 25px;
+    }
+  }
+}

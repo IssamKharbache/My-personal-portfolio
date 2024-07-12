@@ -1,0 +1,26 @@
+@import "../app.scss";
+
+.socials {
+  display: flex;
+  gap: 20px;
+  @include mobile {
+    align-items: center;
+    justify-content: center;
+  }
+  .socialicons {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+  }
+  .socialicons:hover {
+    background-color: white;
+    color: #0c0c1d;
+  }
+}
