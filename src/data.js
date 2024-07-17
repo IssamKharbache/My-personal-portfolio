@@ -24,11 +24,20 @@ export const itemsProject = [
     description:
       "Fit gym is a modern fully responsive gym website that helps the fitness fitgym company to easily reach there clients ",
     image: "/fitgym.png",
-    github: "https://github.com/IssamKharbache/Gym-fit",
+    github: "https://github.com/IssamKharbache/Market-verse",
     live: "https://fit-gym-dev.vercel.app/",
   },
   {
-    id: 34,
+    id: 4,
+    title: "Market verse",
+    description:
+      "Market verse is a market place platform where users authenticate and can buy or sell usable or new products (cars,properties,clothes...)",
+    image: "/marketverse.png",
+    github: "https://github.com/IssamKharbache/Gym-fit",
+    live: "https://market-verse.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Royal arc",
     description:
       "Royal arc is an example of a full fledge marketing agency that specializes in branding, web design, and digital marketing.. ",
@@ -37,7 +46,7 @@ export const itemsProject = [
     live: "https://royal-arc.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Carent",
     description:
       "Carent is a leading provider of car rental services dedicated to offering convenient and reliable transportation solutions.",
@@ -47,7 +56,7 @@ export const itemsProject = [
   },
   {
     //foodify
-    id: 5,
+    id: 7,
     title: "Foodify",
     description:
       "Foodify is a restaurent front end project built by next js and framer motion",
