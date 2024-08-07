@@ -40,7 +40,7 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="Home" className="hero">
       <div className="wrapper">
         <motion.div
           variants={textVariants}
@@ -68,14 +68,7 @@ const Hero = () => {
           />
         </motion.div>
       </div>
-      <motion.div
-        variants={sliderVariants}
-        initial="initial"
-        animate="animate"
-        className="slidingTextContainer"
-      >
-        Developer Designer Creator
-      </motion.div>
+
       <div className="imageContainer">
         <img src="/3dimage.png" alt="" />
       </div>
