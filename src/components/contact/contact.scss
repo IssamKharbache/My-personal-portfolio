@@ -6,6 +6,9 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  @include laptop {
+    padding: 45px;
+  }
   @include mobile {
     width: 100%;
     padding: 15px;
