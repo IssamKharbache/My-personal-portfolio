@@ -20,7 +20,7 @@
     flex-direction: column;
     gap: 70px;
     @include mobile {
-      gap: 40px;
+      gap: 70px;
       align-items: center;
       text-align: center;
       margin-top: 70px;
@@ -29,8 +29,7 @@
       font-size: 100px;
       line-height: 95px;
       @include mobile {
-        font-size: 25px;
-        line-height: 45px;
+        font-size: 45px;
       }
     }
     .item {
@@ -39,7 +38,7 @@
         line-height: 40px;
         margin-bottom: 15px;
         @include mobile {
-          font-size: 15px;
+          display: none;
         }
       }
     }

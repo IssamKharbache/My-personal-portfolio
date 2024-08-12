@@ -1,11 +1,12 @@
 @import "../../app.scss";
 .projects {
   position: relative;
-  @include mobile {
-    padding: 0px;
-  }
+
   @include laptop {
     padding: 70px;
+  }
+  @include mobile {
+    padding: 0px;
   }
   .progress {
     position: sticky;
