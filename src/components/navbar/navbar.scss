@@ -10,6 +10,15 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    @include mobile {
+      padding: 25px;
+    }
+    @include laptop {
+      padding: 40px;
+    }
+    @include tablet {
+      padding: 30px;
+    }
     span {
       font-weight: 700;
       font-size: 25px;

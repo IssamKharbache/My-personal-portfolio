@@ -14,6 +14,6 @@ export const assests = {
     },
     { href: "https://github.com/IssamKharbache", icon: FaGithub },
     { href: "mailto:issamkharbache2@gmail.com", icon: IoMdMail },
-    { href: "https://www.tiktok.com/@wonder_coder", icon: FaTiktok },
+    // { href: "https://www.tiktok.com/@wonder_coder", icon: FaTiktok },
   ],
 };
