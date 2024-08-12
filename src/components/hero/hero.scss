@@ -4,6 +4,9 @@
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
+  @include laptop {
+    padding: 25px;
+  }
   .wrapper {
     max-width: 1366px;
     height: 100%;
@@ -99,11 +102,11 @@
     right: 0;
     img {
       height: 90%;
-      width: 70%;
+      width: 100%;
       object-fit: cover;
-      @include desktop {
-        display: none;
-      }
+    }
+    @include tablet {
+      display: none;
     }
   }
 
