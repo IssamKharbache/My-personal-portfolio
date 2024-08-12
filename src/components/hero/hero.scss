@@ -7,6 +7,9 @@
   @include laptop {
     padding: 25px;
   }
+  @include mobile {
+    padding: 0px;
+  }
   .wrapper {
     max-width: 1366px;
     height: 100%;
