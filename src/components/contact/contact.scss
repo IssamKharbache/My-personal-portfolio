@@ -6,6 +6,9 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  @include laptop {
+    padding: 45px;
+  }
   @include mobile {
     width: 100%;
     padding: 15px;
@@ -17,7 +20,7 @@
     flex-direction: column;
     gap: 70px;
     @include mobile {
-      gap: 40px;
+      gap: 70px;
       align-items: center;
       text-align: center;
       margin-top: 70px;
@@ -27,7 +30,7 @@
       line-height: 95px;
       @include mobile {
         font-size: 25px;
-        line-height: 45px;
+        line-height: 25px;
       }
     }
     .item {

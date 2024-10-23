@@ -54,7 +54,7 @@
       @include tablet {
         flex-direction: column;
         text-align: center;
-        gap: 50px;
+        gap: 10px;
       }
       hr {
         width: 500px;
@@ -68,6 +68,13 @@
         margin-top: 30px;
         @include tablet {
           font-size: 25px;
+        }
+
+        @include laptop {
+          font-size: 55px;
+        }
+        @include mobile {
+          font-size: 35px;
         }
       }
       button {
@@ -85,6 +92,12 @@
           width: 200px;
           font-size: 15px;
         }
+        @include laptop {
+          height: 50px;
+          width: 200px;
+          font-size: 15px;
+          margin-top: 15px;
+        }
       }
       button:hover {
         background-color: rgb(60, 83, 150);
@@ -96,6 +109,10 @@
     flex: 2;
     display: flex;
     justify-content: center;
+    @include laptop {
+      padding: 45px;
+    }
+
     p {
       max-width: 1366px;
       font-size: 25px;
@@ -106,18 +123,23 @@
       padding: 15px;
       margin-top: 15px;
       margin-bottom: 150px;
-      @include mobile {
-        font-size: 14px;
-        line-height: 18px;
+      @include laptop {
+        font-size: 18px;
       }
-    }
-
-    @include tablet {
-      font-size: 14px;
-      line-height: 25px;
-      margin-bottom: 25px;
-      text-align: center;
-      padding: 25px;
+      @include tablet {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+        padding: 25px;
+      }
+      @include mobile {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+        padding: 15px;
+      }
     }
   }
 }

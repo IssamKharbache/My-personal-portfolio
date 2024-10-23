@@ -33,13 +33,17 @@ section {
 }
 
 @mixin tablet {
-  @media (max-width: 1024px) {
+  @media (max-width: 1250px) {
     @content;
   }
 }
-
+@mixin laptop {
+  @media (max-width: 1632px) {
+    @content;
+  }
+}
 @mixin desktop {
-  @media (max-width: 1366px) {
+  @media (max-width: 2250px) {
     @content;
   }
 }
