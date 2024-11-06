@@ -7,7 +7,15 @@ import NavBar from "./components/navbar/NavBar";
 import Parallax from "./components/parallax/Parallax";
 import Projects from "./components/projects/Projects";
 import Cursor from "./components/cursor/Cursor";
+import { useContext } from "react";
+import { modalContext } from "./context/modalContext";
 function App() {
+  const { showModalcv } = useContext(modalContext);
+  if (showModalcv) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
   return (
     <div>
       <Cursor />
