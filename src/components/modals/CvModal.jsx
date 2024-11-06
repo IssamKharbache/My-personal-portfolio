@@ -37,13 +37,18 @@ const CvModal = () => {
             <DownloadIcon size={20} />
           </button>
         </a>
-        <div className="buttonContainer">
-          <button disabled className="downloadButton">
+        <a
+          href="/francais-cv.pdf"
+          download="francais-cv.pdf"
+          className="buttonContainer"
+          onClick={() => setShowModalcv(false)}
+        >
+          <button className="downloadButton">
             <ReactCountryFlag className="flag" countryCode="FR" svg />
             <span>Français</span>
             <DownloadIcon size={20} />
           </button>
-        </div>
+        </a>
         <div className="buttonContainer">
           <button disabled className="downloadButton">
             <ReactCountryFlag className="flag" countryCode="DE" svg />
