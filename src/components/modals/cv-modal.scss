@@ -1,3 +1,4 @@
+@import "../../app.scss";
 .backdrop {
   position: absolute;
   z-index: 99;
@@ -9,7 +10,7 @@
 
 .cv-modalContainer {
   place-self: center;
-  width: max(30vw, 370px);
+  width: max(30vw, 250px);
   color: #808080;
   background-color: white;
   display: flex;
@@ -31,6 +32,9 @@
   align-items: center;
   color: #0c0c1d;
   font-size: 25px;
+  @include tablet {
+    font-size: 14px;
+  }
 }
 .buttonContainer {
   display: flex;
@@ -51,7 +55,7 @@
   cursor: pointer;
   margin-bottom: 7px;
   color: white;
-  width: 50%;
+  width: 80%;
 }
 
 .downloadButton:hover {

@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { useContext } from "react";
+import { modalContext } from "../../../context/modalContext";
 
 const variants = {
   show: (i) => ({
@@ -16,12 +18,16 @@ const variants = {
 };
 
 const Links = ({ isOpen, setOpen }) => {
+  const { setShowModalcv } = useContext(modalContext);
   const links = ["Home", "Projects", "About", "Contact"];
   return (
     <div className="links">
       {links.map((link, idx) => (
         <motion.a
-          onClick={() => setOpen(false)}
+          onClick={() => {
+            setOpen(false);
+            setShowModalcv(false);
+          }}
           variants={variants}
           animate={isOpen ? "show" : "hidden"}
           custom={idx}

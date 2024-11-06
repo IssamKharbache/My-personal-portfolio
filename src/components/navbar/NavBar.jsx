@@ -5,7 +5,7 @@ import { HiDownload } from "react-icons/hi";
 //
 import SideBar from "../sidebar/SideBar";
 import Socials from "../Socials";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import CvModal from "../modals/CvModal";
 import { modalContext } from "../../context/modalContext";
 const NavBar = () => {

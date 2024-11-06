@@ -7,17 +7,19 @@
     max-width: 1366px;
     margin: auto;
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    @include mobile {
-      padding: 25px;
-    }
+
     @include laptop {
       padding: 40px;
     }
     @include tablet {
       padding: 30px;
+    }
+    @include mobile {
+      padding: 0px;
     }
     span {
       font-weight: 700;
@@ -39,7 +41,9 @@
       gap: 8px;
       align-items: center;
       @include mobile {
-        display: none;
+        font-size: 0px;
+        padding: 11px;
+        gap: 0px;
       }
     }
     button:hover {
