@@ -49,13 +49,17 @@ const CvModal = () => {
             <DownloadIcon size={20} />
           </button>
         </a>
-        <div className="buttonContainer">
-          <button disabled className="downloadButton">
+        <a
+          href="/issam-lebenslauf.pdf"
+          download="issam-lebenslauf.pdf"
+          className="buttonContainer"
+        >
+          <button className="downloadButton">
             <ReactCountryFlag className="flag" countryCode="DE" svg />
             <span>Deutsch</span>
             <DownloadIcon size={20} />
           </button>
-        </div>{" "}
+        </a>{" "}
       </motion.div>
     </div>
   );
