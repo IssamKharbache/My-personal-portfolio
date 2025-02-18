@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import "./hero.scss";
+import { useContext } from "react";
+import { modalContext } from "../../context/modalContext";
 
 const textVariants = {
   initial: {
@@ -24,21 +26,9 @@ const textVariants = {
   },
 };
 
-const sliderVariants = {
-  initial: {
-    x: 0,
-  },
-  animate: {
-    x: "-220%",
-    transition: {
-      repeat: Infinity,
-      repeatType: "mirror",
-      duration: 20,
-    },
-  },
-};
-
 const Hero = () => {
+  const { setShowModalcv } = useContext(modalContext);
+
   return (
     <div id="Home" className="hero">
       <div className="wrapper">
@@ -56,8 +46,20 @@ const Hero = () => {
             <motion.a href="#Projects" variants={textVariants}>
               Check my latest works
             </motion.a>
-            <motion.a href="#Contact" variants={textVariants}>
+            <motion.a
+              className="contactButton"
+              href="#Contact"
+              variants={textVariants}
+            >
               Contact me
+            </motion.a>
+            <motion.a
+              className="cvButton"
+              href="#"
+              onClick={() => setShowModalcv(true)}
+              variants={textVariants}
+            >
+              Download CV
             </motion.a>
           </motion.div>
           <motion.img

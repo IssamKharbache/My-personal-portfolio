@@ -55,6 +55,18 @@
         padding: 15px;
       }
     }
+    .contactButton {
+      display: block;
+      @include mobile {
+        display: none;
+      }
+    }
+    .cvButton {
+      display: none;
+      @include mobile {
+        display: block;
+      }
+    }
     .buttons {
       display: flex;
       flex-direction: row;
@@ -64,6 +76,7 @@
         align-items: center;
         justify-content: center;
       }
+
       a {
         padding: 20px;
         border: 1px solid white;
