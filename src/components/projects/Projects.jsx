@@ -31,9 +31,21 @@ const Single = ({ items }) => {
               <a href={items.live} target="_blank">
                 <FaArrowRightLong />
               </a>
-              <a href={items.github} target="_blank">
-                <FaGithub />
-              </a>
+              <div className="tooltipWrapper">
+                <a
+                  className={`${items.isPrivate ? "disabled" : ""}`}
+                  href={items.github}
+                  target="_blank"
+                >
+                  <FaGithub />
+                </a>
+                {items.isPrivate && (
+                  <div className="tooltip">
+                    The client for this project chose to keep the repo private.
+                    You can still check the demo though.
+                  </div>
+                )}
+              </div>
             </div>
           </motion.div>
         </div>

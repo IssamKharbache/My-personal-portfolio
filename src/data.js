@@ -17,6 +17,7 @@ export const itemsProject = [
     image: "/pointbatterie.png",
     github: "https://github.com/IssamKharbache/point-batteries",
     live: "https://www.pointbatteries.com/",
+    isPrivate: true,
   },
 
   {
