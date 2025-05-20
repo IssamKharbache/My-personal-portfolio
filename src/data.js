@@ -1,7 +1,16 @@
 export const itemsProject = [
+    {
+    id: 1,
+    title: "Point Batterie Service",
+    description:
+      "An e-commerce platform with a dashboard for easy management of online sales, inventory, and orders. It also includes a local shop system with an integrated cashier, ensuring real-time synchronization between online and in-store sales. Built with Next.js, PostgreSQL, and Prisma for high performance and scalability",
+    image: "/pointbatterie.png",
+    github: "https://github.com/IssamKharbache/point-batteries",
+    live: "https://www.pointbatteries.com/",
+  },
   {
     //shopay ecomm
-    id: 1,
+    id: 2,
     title: "Shopay",
     description:
       "Shopay is a scalable multi-vendor e-commerce platform where multiple sellers can manage their products, orders, and profiles. Built with Next.js, PostgreSQL, and Prisma for efficient performance and seamless user experience.",
@@ -9,16 +18,7 @@ export const itemsProject = [
     github: "https://github.com/IssamKharbache/Shopay-multivendor",
     live: "https://shopay-multivendor.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Point Batterie Service",
-    description:
-      "An e-commerce platform with a dashboard for easy management of online sales, inventory, and orders. It also includes a local shop system with an integrated cashier, ensuring real-time synchronization between online and in-store sales. Built with Next.js, PostgreSQL, and Prisma for high performance and scalability",
-    image: "/pointbatterie.png",
-    github: "https://github.com/IssamKharbache/point-batteries",
-    live: "https://www.pointbatteries.com/",
-    isPrivate: true,
-  },
+
 
   {
     id: 3,
