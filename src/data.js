@@ -1,7 +1,7 @@
 export const itemsProject = [
     {
     id: 1,
-    title: "Point Batterie Service",
+    title: "Point Batterie",
     description:
       "An e-commerce platform with a dashboard for easy management of online sales, inventory, and orders. It also includes a local shop system with an integrated cashier, ensuring real-time synchronization between online and in-store sales. Built with Next.js, PostgreSQL, and Prisma for high performance and scalability",
     image: "/pointbatterie.png",
