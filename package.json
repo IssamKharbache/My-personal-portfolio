@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^10.18.0",
     "lucide-react": "^0.400.0",
+    "portfolioreact": "link:",
     "react": "^18.3.1",
     "react-country-flag": "^3.1.0",
     "react-dom": "^18.3.1",

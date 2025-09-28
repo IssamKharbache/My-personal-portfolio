@@ -1,6 +1,15 @@
 export const itemsProject = [
-    {
+  {
     id: 1,
+    title: "Arctic Dream Tours",
+    description:
+      "A fully featured tourist agency platform that allows travelers to explore and book Arctic activities with real-time availability. The system includes a multilingual website, booking management, and a custom admin dashboard to manage activities, schedules, and customer reservations. Built with Next.js(typescript), PostgreSQL,performance, scalability, and smooth booking experiences",
+    image: "/arcticProject.png",
+    github: "https://github.com/IssamKharbache/arctic-dream-tours",
+    live: "https://www.arcticdreamtours.com",
+  },
+  {
+    id: 2,
     title: "Point Batterie",
     description:
       "An e-commerce platform with a dashboard for easy management of online sales, inventory, and orders. It also includes a local shop system with an integrated cashier, ensuring real-time synchronization between online and in-store sales. Built with Next.js, PostgreSQL, and Prisma for high performance and scalability",
@@ -10,7 +19,7 @@ export const itemsProject = [
   },
   {
     //shopay ecomm
-    id: 2,
+    id: 3,
     title: "Shopay",
     description:
       "Shopay is a scalable multi-vendor e-commerce platform where multiple sellers can manage their products, orders, and profiles. Built with Next.js, PostgreSQL, and Prisma for efficient performance and seamless user experience.",
@@ -19,9 +28,8 @@ export const itemsProject = [
     live: "https://shopay-multivendor.vercel.app/",
   },
 
-
   {
-    id: 3,
+    id: 4,
     title: "Social up",
     description:
       "Social up is a full stack social media app, where users can chat , post , and interact with other users",
@@ -30,7 +38,7 @@ export const itemsProject = [
     live: "https://socialup.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Easy eat",
     description:
       "Easy eat is food delivery  full stack application with an user friendly admin dashboard where you can easily manage your products and also all your orders",
@@ -39,7 +47,7 @@ export const itemsProject = [
     live: "https://easy-eat-platform.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Fit Gym",
     description:
       "Modern responsive website showcasing gym deals, memberships, and promotions. Designed with Next.js for fast performance and a smooth user experience",
@@ -48,7 +56,7 @@ export const itemsProject = [
     live: "https://fit-gym-dev.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Market verse",
     description:
       "Market verse is a market place platform where users authenticate and can buy or sell usable or new products (cars,properties,clothes...)",
@@ -57,7 +65,7 @@ export const itemsProject = [
     live: "https://market-verse.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Royal arc",
     description:
       "Royal arc is an example of a full fledge marketing agency that specializes in branding, web design, and digital marketing.. ",
@@ -66,7 +74,7 @@ export const itemsProject = [
     live: "https://royal-arc.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Carent",
     description:
       "Carent is a leading provider of car rental services dedicated to offering convenient and reliable transportation solutions.",
@@ -76,7 +84,7 @@ export const itemsProject = [
   },
   {
     //foodify
-    id: 9,
+    id: 10,
     title: "Foodify",
     description:
       "Foodify is a restaurent front end project built by next js and framer motion",

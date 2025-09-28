@@ -14,7 +14,6 @@ const NavBar = () => {
     <>
       <div className="navbar">
         <SideBar />
-
         {/* side bar*/}
         <div className="wrapper">
           <div className="imagewrapper">
