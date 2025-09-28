@@ -28,15 +28,15 @@ export const itemsProject = [
     live: "https://shopay-multivendor.vercel.app/",
   },
 
-  {
-    id: 4,
-    title: "Social up",
-    description:
-      "Social up is a full stack social media app, where users can chat , post , and interact with other users",
-    image: "/socialup.png",
-    github: "https://github.com/IssamKharbache/social-up",
-    live: "https://socialup.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   title: "Social up",
+  //   description:
+  //     "Social up is a full stack social media app, where users can chat , post , and interact with other users",
+  //   image: "/socialup.png",
+  //   github: "https://github.com/IssamKharbache/social-up",
+  //   live: "https://socialup.vercel.app/",
+  // },
   {
     id: 5,
     title: "Easy eat",
