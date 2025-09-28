@@ -19,7 +19,6 @@ function App() {
   return (
     <div>
       <Cursor />
-      <Toaster richColors position="top-center" />
       <section id="home">
         <NavBar />
         <Hero />
