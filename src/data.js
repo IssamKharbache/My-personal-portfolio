@@ -3,7 +3,7 @@ export const itemsProject = [
     id: 1,
     title: "Arctic Dream Tours",
     description:
-      "A fully featured tourist agency platform that allows travelers to explore and book Arctic activities with real-time availability. The system includes a multilingual website, booking management, and a custom admin dashboard to manage activities, schedules, and customer reservations. Built with Next.js(typescript), PostgreSQL,performance, scalability, and smooth booking experiences",
+      "A fully featured tourist agency platform that allows travelers to explore and book Arctic activities with real-time availability. The system includes a multilingual website, booking management, and a custom admin dashboard to manage activities, schedules, and customer reservations. Built with Next.js(typescript), PostgreSQL.For better performance, scalability, and smooth booking experiences",
     image: "/arcticProject.png",
     github: "https://github.com/IssamKharbache/arctic-dream-tours",
     live: "https://www.arcticdreamtours.com",
