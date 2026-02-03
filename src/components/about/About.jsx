@@ -70,9 +70,7 @@ const About = () => {
           Hello! I'm Issam Kharbache, a passionate software and web developer. I
           specialize in crafting responsive, elegant, and user-friendly websites
           and applications using new technologies. My technical expertise
-          includes proficiency in several programming languages (such as
-          JavaScript, Python, Java, etc.), frameworks (React, Django, etc.), and
-          databases (SQL, MongoDB, etc.).
+          includes proficiency in several programming languages
         </p>
       </motion.div>
     </div>
