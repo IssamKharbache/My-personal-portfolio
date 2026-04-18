@@ -27,6 +27,15 @@ export const itemsProject = [
   },
   {
     id: 4,
+    title: "Wholesomemeals",
+    description:
+      "WholesomeMeals helps you discover, plan, and cook delicious recipes from around the world — all in one place.",
+    image: "/wholsome.png",
+    github: "https://github.com/IssamKharbache/wholesomemeals",
+    live: "https://wholesomemeals.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Royal arc",
     description:
       "Royal arc is an example of a full fledge marketing agency that specializes in branding, web design, and digital marketing.. ",
