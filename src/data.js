@@ -23,7 +23,7 @@ export const itemsProject = [
       "Modern responsive website showcasing gym deals, memberships, and promotions. Designed with Next.js for fast performance and a smooth user experience",
     image: "/fitgym.png",
     github: "https://github.com/IssamKharbache/Gym-fit",
-    live: "https://fit-gym1.vercel.app/",
+    live: "https://fitgyme.vercel.app/",
   },
   {
     id: 4,
